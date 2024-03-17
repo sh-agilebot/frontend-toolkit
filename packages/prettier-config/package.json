@@ -1,0 +1,26 @@
+{
+  "name": "@agilebot/prettier-config",
+  "version": "0.1.1",
+  "description": "Prettier configuration used by Agilebot.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "sh-agilebot/frontend",
+    "directory": "packages/prettier-config"
+  },
+  "homepage": "https://github.com/sh-agilebot/frontend/tree/main/packages/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  }
+}

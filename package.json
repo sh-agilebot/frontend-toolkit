@@ -1,0 +1,18 @@
+{
+  "name": "@agilebot/frontend-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "only-allow": "^1.2.1",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
