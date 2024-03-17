@@ -1,5 +1,5 @@
 {
-  "name": "@agilebot/frontend-monorepo",
+  "name": "@agilebot/frontend-toolkit",
   "version": "0.0.0",
   "private": true,
   "scripts": {

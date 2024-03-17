@@ -1,6 +1,6 @@
 {
   "name": "@agilebot/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prettier configuration used by Agilebot.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,11 +16,12 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "sh-agilebot/frontend",
+    "url": "sh-agilebot/frontend-toolkit",
     "directory": "packages/prettier-config"
   },
-  "homepage": "https://github.com/sh-agilebot/frontend/tree/master/packages/prettier-config#readme",
+  "homepage": "https://github.com/sh-agilebot/frontend-toolkit/tree/master/packages/prettier-config#readme",
   "peerDependencies": {
     "prettier": ">=3.0.0"
-  }
+  },
+  "files": ["dist"]
 }
