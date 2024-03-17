@@ -19,7 +19,7 @@
     "url": "sh-agilebot/frontend",
     "directory": "packages/prettier-config"
   },
-  "homepage": "https://github.com/sh-agilebot/frontend/tree/main/packages/prettier-config#readme",
+  "homepage": "https://github.com/sh-agilebot/frontend/tree/master/packages/prettier-config#readme",
   "peerDependencies": {
     "prettier": ">=3.0.0"
   }
